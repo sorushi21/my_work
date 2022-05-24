@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="1.86">
+<testcase classname="Login page testcase" name="Login page field validation" time="0.968">
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given user is on login page.................................................failed
+When user enters username...................................................skipped
+And user enters password....................................................skipped
+And user click login button.................................................skipped
+Then homepage is diplayed...................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at java.util.Hashtable.get(Hashtable.java:364)
+	at java.util.Properties.getProperty(Properties.java:969)
+	at org.qa.utility.ElementUtility.getData(ElementUtility.java:21)
+	at stepDefinitions.StepDef.user_is_on_login_page(StepDef.java:26)
+	at ✽.user is on login page(file:///D:/Testing/Testing/Workspace/Cucmber2/src/test/resources/org/features/LoginPage1.feature:4)
+]]></failure>
+</testcase>
+</testsuite>
